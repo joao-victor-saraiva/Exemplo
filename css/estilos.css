@@ -128,3 +128,95 @@ h1{
     align-items: flex-end;
     justify-content: center;
 }
+/*CONTATO*/
+#contato{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#contato-coluna-esquerda, #contato-coluna-direita{
+    flex-basis: 50%;
+}
+#contato-coluna-direita img{
+    width: 100%;
+}
+form{
+    max-width: 70%;
+    margin: 30px;
+}
+form input, textarea{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    border: 2px solid #fab3c4;
+    outline: none;
+}
+#contato-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#contato-btn button{
+    flex-basis: 48%;
+    padding: 18px 0;
+}
+/*FOOTER*/ 
+footer{
+    padding: 50px 0 30px;
+}
+hr{
+    width: 100%;
+    border-top: 1px solid #f67c92;
+    margin-bottom: 30px;
+}
+.footer-linha{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f67c92;
+    padding: 10px;
+}
+.footer-coluna-esquerda{
+    flex-basis: 35%;
+    margin-top: 5px 100px;
+    justify-items: right;
+    justify-content: flex-end;
+}
+.footer-coluna-direita{
+    flex-basis: 55%;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.link-titulo h4 {
+    color: #782135;
+    margin-bottom: 20px;
+}
+.link-titulo small {
+    font-size: 13px;
+    color: #383838;
+}
+.footer-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-logo img {
+    width: 100px
+}
+.footer-logo button {
+    padding: 12px 20px;
+    margin-top: 20px 30px;
+    font-size: 10px; 
+    border: 1px solid #edbcc5;
+}
+.copyright-text,
+.footer-logo {
+    flex-basis: 40%; 
+    font-size: 0.7em;
+}
