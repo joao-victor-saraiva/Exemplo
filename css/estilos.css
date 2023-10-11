@@ -220,3 +220,32 @@ hr{
     flex-basis: 40%; 
     font-size: 0.7em;
 }
+/*detalhes*/
+.square {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #f67c92;
+}
+.linha-1 {
+    width: 100px;
+    height: 1px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+.linha-2 {
+    width: 80px;
+    height: 1px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+.linha-3 {
+    width: 60px;
+    height: 1px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+.linha {
+    line-height: 8px;
+    margin-bottom: 20px;
+}
